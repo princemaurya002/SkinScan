@@ -2,8 +2,6 @@
 
 **Gradient-based 3D skin lesion reconstruction** from smartphone images. Reconstructs depth and surface normals from four gradient-lit photos, exports metric meshes (mm), and provides interactive tools for lesion height, volume, and cross-section line profiles.
 
-![Pipeline overview](Results_test/depth_mesh_preview.png)
-
 ---
 
 ## Features
@@ -18,9 +16,9 @@
 
 ## Screenshots
 
-| Albedo (clicking surface) | Normals map | Depth map | Mesh preview |
-|---------------------------|-------------|-----------|--------------|
-| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.png) | ![Mesh](Results_test/depth_mesh_preview.png) |
+| Albedo (clicking surface) | Normals map | Depth map |
+|---------------------------|-------------|-----------|
+| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.png) |
 
 *After running the pipeline, use the albedo image to select points and draw lines; press `l` for a dense height profile along any line.*
 
@@ -148,7 +146,6 @@ SkinScan/
 | `Results_test/normals_test.png` | Normals visualisation |
 | `Results_test/depth_test.png` | Depth visualisation |
 | `Results_test/depth_mesh.obj` | 3D mesh (pixel or mm coordinates) |
-| `Results_test/depth_mesh_preview.png` | Depth preview image |
 | `Results_test/depth_metrics.txt` | Min/max/mean height, optional mm |
 
 ---
