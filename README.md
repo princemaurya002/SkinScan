@@ -18,7 +18,7 @@
 
 | Albedo (clicking surface) | Normals map | Depth map |
 |---------------------------|-------------|-----------|
-| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.png) |
+| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.PNG) |
 
 *After running the pipeline, use the albedo image to select points and draw lines; press `l` for a dense height profile along any line.*
 
