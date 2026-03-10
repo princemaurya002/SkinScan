@@ -2,8 +2,6 @@
 
 **Gradient-based 3D skin lesion reconstruction** from smartphone images. Reconstructs depth and surface normals from four gradient-lit photos, exports metric meshes (mm), and provides interactive tools for lesion height, volume, and cross-section line profiles.
 
-![Pipeline overview](Results_test/depth_mesh_preview.png)
-
 ---
 
 ## Features
@@ -168,8 +166,4 @@ SkinScan/
 - **Metric mesh:** When `config.json` has `mm_per_pixel` and `mm_per_unit`, mesh vertices are `x = col·mm_per_pixel`, `y = row·mm_per_pixel`, `z = depth·mm_per_unit`.  
 - **Line profile:** Dense sampling (~4 samples/pixel) along a user-drawn line with sub-pixel interpolation; plot shows relative height vs distance (mm if calibrated).
 
----
 
-## License
-
-See repository license file.
