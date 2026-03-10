@@ -1,0 +1,8 @@
+{
+  "camera_type": "phone",
+  "phone_cam_url": "http://YOUR_PHONE_IP:8080/video",
+  "n_gradient_images": 2,
+  "capture_new_data": true,
+  "mm_per_unit": 0.0010159888013031248,
+  "mm_per_pixel": 0.4211597863173308
+}

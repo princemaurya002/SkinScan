@@ -1,0 +1,9 @@
+SkinScan depth/height metrics
+----------------------------
+Depth shape: (922, 572)
+Depth min (units):     -127107.492188
+Depth max (units):     120842.867188
+Depth mean (units):    -22.211285
+Depth std (units):     15255.140625
+Max height (units):     247950.359375
+Max height (mm):       1301044.5135
