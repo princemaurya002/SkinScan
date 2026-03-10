@@ -16,9 +16,9 @@
 
 ## Screenshots
 
-| Albedo (clicking surface) | Normals map | Depth map | Mesh preview |
-|---------------------------|-------------|-----------|--------------|
-| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.png) | ![Mesh](Results_test/depth_mesh_preview.png) |
+| Albedo (clicking surface) | Normals map | Depth map |
+|---------------------------|-------------|-----------|
+| ![Albedo](Results_test/albedo_test.png) | ![Normals](Results_test/normals_test.png) | ![Depth](Results_test/depth_test.png) |
 
 *After running the pipeline, use the albedo image to select points and draw lines; press `l` for a dense height profile along any line.*
 
@@ -146,7 +146,6 @@ SkinScan/
 | `Results_test/normals_test.png` | Normals visualisation |
 | `Results_test/depth_test.png` | Depth visualisation |
 | `Results_test/depth_mesh.obj` | 3D mesh (pixel or mm coordinates) |
-| `Results_test/depth_mesh_preview.png` | Depth preview image |
 | `Results_test/depth_metrics.txt` | Min/max/mean height, optional mm |
 
 ---
@@ -166,4 +165,8 @@ SkinScan/
 - **Metric mesh:** When `config.json` has `mm_per_pixel` and `mm_per_unit`, mesh vertices are `x = col·mm_per_pixel`, `y = row·mm_per_pixel`, `z = depth·mm_per_unit`.  
 - **Line profile:** Dense sampling (~4 samples/pixel) along a user-drawn line with sub-pixel interpolation; plot shows relative height vs distance (mm if calibrated).
 
+---
 
+## License
+
+See repository license file.
